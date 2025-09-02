@@ -16,7 +16,7 @@ FireSafetyDesigner is a cutting-edge software solution engineered to revolutioni
 
 To get started with FireSafetyDesigner, follow these steps:
 
-1.  **Download the Installer**: Obtain the latest installer from the [releases page](link-to-releases-page).
+1.  **Download the Installer**: Obtain the latest installer from the [releases page]([link-to-releases-page](https://github.com/MohdRash/FireSafetyDesigner/releases/tag/v1.0.0)).
 2.  **Run the Installer**: Execute `FireSafetyDesignerInstaller.exe` and follow the on-screen instructions.
 3.  **Launch the Application**: Once installed, you can find FireSafetyDesigner in your Start Menu or Desktop.
 

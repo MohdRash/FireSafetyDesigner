@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="FireSafetyDesigner" Manufacturer="Your Company" Version="1.0.0.0" UpgradeCode="{E608D93D-BB51-4E62-8C0E-F9EC093726C6}" Compressed="true">
+    <MediaTemplate />
+
+    <Feature Id="ProductFeature" Title="FireSafetyDesigner" Level="1">
+      <ComponentGroupRef Id="ApplicationComponents" />
+    </Feature>
+  </Package>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="FireSafetyDesigner" />
+      </Directory>
+    </Directory>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="ApplicationComponents" Directory="INSTALLFOLDER">
+      <Component Id="FireSafetyDesignerApp" Guid="{D3254027-7CB6-485B-814A-F9421EB225C6}">
+        <File Id="FireSafetyDesignerAppExe" Source="$(var.FireSafetyDesigner.App.TargetDir)FireSafetyDesigner.App.exe" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

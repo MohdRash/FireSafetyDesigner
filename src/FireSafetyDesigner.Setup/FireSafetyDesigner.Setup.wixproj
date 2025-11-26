@@ -2,7 +2,7 @@
   <PropertyGroup>
     <OutputName>FireSafetyDesignerInstaller</OutputName>
     <OutputType>Bundle</OutputType>
-    <ProjectGuid>{C7584669-9236-027500200000}</ProjectGuid>
+    <ProjectGuid>{C7584669-9236-027500200000333}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\FireSafetyDesigner.App\FireSafetyDesigner.App.csproj" />

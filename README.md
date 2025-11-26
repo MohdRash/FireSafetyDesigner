@@ -57,11 +57,7 @@ A comprehensive Windows-based application for architects, engineers, and safety 
 - BIM integration (Revit, AutoCAD, IFC)
 - Automated reporting
 
-## Technical Requirements
-- Platform: Windows 10/11 (64-bit)
-- Languages: C#/.NET or Qt with C++
-- Database: SQLite/PostgreSQL
-- 3D Graphics: DirectX or Unity/Unreal Engine
+
 
 ## Development Milestones
 1. Requirements Gathering & Prototyping
